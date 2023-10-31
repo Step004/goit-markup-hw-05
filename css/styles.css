@@ -392,7 +392,7 @@ img {
     row-gap: 4 8px;
 }
 
-.section-three-list:hover .section-three-list-item{
+.section-three-list:hover .section-three-list-item {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -507,7 +507,8 @@ img {
 .footer-icon-list-a:hover,
 .footer-icon-list-a:focus {
     fill: #31d0aa;
-    background-color: #31d0aa;;
+    background-color: #31d0aa;
+    ;
 }
 
 .icon-list-a:hover,
@@ -544,14 +545,73 @@ img {
 .container-footer {
     display: flex;
     align-items: baseline;
-    
 }
 
-.footer-lohotipe{
+.footer-lohotipe {
     margin-right: 120px;
 }
-.svg-icon{
-    /* fill:#f4f4fd; */
+
+.footer-subscribe {
+    margin-left: 80px;
+}
+
+.svg-icon {
     width: 40px;
     height: 40px;
+}
+
+.footer-form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    padding: 4px;
+    font-family: "Roboto";
+}
+
+.footer-form-input {
+    border-radius: 4px;
+    border: 1px solid white;
+    background: none;
+    width: 264px;
+    height: 40px;
+}
+
+.label-text {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: white;
+}
+
+.f-form-input {
+    display: flex;
+    align-items: end;
+    gap: 24px;
+}
+
+.footer-form-button {
+    display: flex;
+    gap: 16px;
+    height: 40px;
+    padding: 8px 24px;
+    background: #4D5AE5;
+    color: white;
+    font-family: "Roboto";
+    border-radius: 4px;
+}
+
+/* ////////////fprma//////////// */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 408px;
+    height: 584px;
+    margin-top: 80px;
+    margin-left: 516px;
+    border-radius: 4px;
+    border: 2px solid #404BBF;
+    padding: 24px;
+    background: #31d0aa;
 }
