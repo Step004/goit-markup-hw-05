@@ -719,9 +719,11 @@ input {
 
 .modal-window-form-input-i:focus {
     border-color: #4D5AE5;
-    fill: #4D5AE5;
 }
 
+ .modal-window-form-input-svg:focus{
+fill: #4D5AE5;
+}
 .modal-window-form-input-svg {
     position: absolute;
     left: 16px;
