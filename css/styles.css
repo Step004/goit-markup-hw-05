@@ -781,7 +781,7 @@ textarea:focus {
     margin-right: 8px;
 }
 
-.input-chelbox:checked {
+input:checked + label>span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
