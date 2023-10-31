@@ -563,6 +563,7 @@ img {
 .footer-form {
     display: flex;
     gap: 24px;
+    align-items: end;
 }
 
 input {
@@ -600,11 +601,6 @@ input {
 
 }
 
-.f-form-input {
-    display: flex;
-    align-items: end;
-    gap: 24px;
-}
 
 .footer-form-button {
     display: flex;
