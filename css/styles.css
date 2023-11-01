@@ -717,10 +717,10 @@ input {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window-form-input-i:focus + svg{
+.modal-window-form-input-i:focus+svg {
     border-color: #4D5AE5;
     fill: #4D5AE5;
-    }
+}
 
 .modal-window-form-input-svg {
     position: absolute;
@@ -728,7 +728,7 @@ input {
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 
@@ -781,12 +781,13 @@ textarea:focus {
     margin-right: 8px;
 }
 
-input:checked + label>span {
+input:checked+label>span {
     background-color: #404bbf;
     border: none;
-    
+
 }
-.modal-window-chekbox-span:focus + .modal-window-chekbox-label-svg{
+
+.modal-window-chekbox-span:focus .modal-window-chekbox-label-svg {
     fill: #F4F4FD;
 }
 
@@ -803,7 +804,8 @@ input:checked + label>span {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;color: #ffffff;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
