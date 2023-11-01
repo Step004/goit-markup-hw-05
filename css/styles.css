@@ -718,8 +718,10 @@ input {
 }
 
 .modal-window-form-input-i:focus+svg {
-    border-color: #4D5AE5;
     fill: #4D5AE5;
+}
+.modal-window-form-input-i:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-window-form-input-svg {
@@ -784,12 +786,10 @@ textarea:focus {
 input:checked+label>span {
     background-color: #404bbf;
     border: none;
-
-}
-
-.modal-window-chekbox-span:focus .modal-window-chekbox-label-svg {
     fill: #F4F4FD;
 }
+
+
 
 .modal-window-chekbox-police {
     color: #4d5ae5;
